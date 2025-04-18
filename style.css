@@ -1,0 +1,204 @@
+*{
+  list-style-type: none;
+  text-decoration: none;
+}
+
+
+/* RESPONSIVE */
+body {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 2rem;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgba(128, 128, 128, 0.158);
+    font-weight: lighter;
+  }
+  
+  @media (max-width: 768px) {
+    body {
+      padding: 1rem;
+      font-size: 16px;
+    }
+
+    
+  }
+
+
+  /* IMAGE AUTEUR */
+.image_auteur{
+
+    height: 200px;
+    width: 200px;
+    border: solid 1px white;
+    border-radius: 20px;
+    background-color:white;
+}
+
+.nom_auteur{
+  font-weight: bold;
+  
+  
+}
+
+/* BIOGRAPHIE */
+  .bio{
+    word-spacing: 5px;
+    justify-content: space-between;
+    border: solid 1px white ;
+    background-color: white  ;
+    border-radius: 30px;
+    padding: 10px;
+  }
+
+  /* LIVRE */
+
+
+  .livre{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 48px;
+    text-decoration: none;
+    font-weight: bold;
+    
+  }
+
+  .bordur_livre{
+    color: black;
+    border: solid 1px rgba(0, 0, 0, 0.048) ;
+    border-radius: 50px;
+    background-color:rgba(0, 0, 0, 0.123);
+    padding: 5px;
+    
+    
+
+  }
+
+  
+.texte_reseaux{
+  margin-top: 50px;
+  text-decoration:underline;
+  color:blue;
+}
+
+  /* RESEAUX SOCIAUX */
+.texte_reseaux{
+  text-align: center;
+}
+
+
+.reseaux{
+  display: flex;
+  justify-content: center;
+  transform: -50% 50%;
+}
+
+i{
+  
+  font-size: 30px;
+  padding: 8px;
+ 
+}
+
+.fa-facebook{
+  
+  color:blue;
+  border-radius: 143px;
+  background: #FFFFFF;
+  box-shadow: inset 4px 4px 8px #a6a6a6,
+            inset -4px -4px 8px #ffffff;
+;
+}
+
+
+
+.fa-instagram{
+  color: red;
+  border-radius: 143px;
+  background: #FFFFFF;
+  box-shadow: inset 4px 4px 8px #a6a6a6,
+            inset -4px -4px 8px #ffffff;
+
+
+}
+
+
+
+.fa-square-youtube{
+  color: red;
+  border-radius: 143px;
+  background: #FFFFFF;
+  box-shadow: inset 4px 4px 8px #a6a6a6,
+            inset -4px -4px 8px #ffffff;
+
+            
+}
+
+
+
+
+
+.fa-square-whatsapp{
+  color: green;
+  border-radius: 143px;
+  background: #FFFFFF;
+  box-shadow: inset 4px 4px 8px #a6a6a6,
+            inset -4px -4px 8px #ffffff;
+
+           
+}
+
+
+
+
+
+
+/* MODIFICATION SUR LE LIVRE */
+
+.img_livre{
+  display: flex;
+  justify-content: center;
+  transform: -50% 50%;
+  margin-top: 100px;
+  border-radius: 0px;
+            
+}
+
+.lien_achat{
+  color: white;
+  text-align: center;
+  margin-top: 50px;
+  font-weight: bolder;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 30px;
+  border-radius: 87px;
+background: linear-gradient(45deg, #ffffff, #dddddd);
+box-shadow:  16px -16px 42px #9a9a9a,
+             -16px 16px 42px #ffffff;
+
+}
+
+
+
+footer{
+  border-radius: 50px;
+background: linear-gradient(145deg, #cacaca, #f0f0f0);
+box-shadow:  20px 20px 60px #bebebe,
+             -20px -20px 60px #ffffff;
+
+}
+
+ol,li{
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+  font-size: 20px;
+}
+
+.text_numero{
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  text-decoration: underline;
+  color: blue;
+}
